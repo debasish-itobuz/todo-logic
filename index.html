@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS</title>
+    <title>ToDo JS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <input type="text" id="input">
-    <button id="btn">Add</button>
-    <button id="updateBtn">Update</button>
+    <div class="bg-pink-200 h-[60rem] flex flex-col justify-start items-center" >
+        <h2 class="text-4xl font-bold m-8">TO DO</h2>
+    <div class=" ">
+        <input type="text" id="input" placeholder="enter task.." class="p-3 w-[25rem] rounded">
+        <button id="btn" class="p-3 bg-green-400 rounded">Add</button>
+        <button id="updateBtn" class="p-3 bg-blue-400 rounded">Update</button>
+    </div>
+
     <div id="output">
 
     </div>
+</div>
     <script src="./main.js"></script>
 </body>
+
 </html>
